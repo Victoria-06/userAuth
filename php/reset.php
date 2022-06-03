@@ -13,7 +13,6 @@ $c_email = array_column($csv, 1);
 $search = array_search($email, $c_email);
 //save the row where the user is present in the variable
 $row = ($csv[$search]);
-//extract only the password and replace with new password
 $row[2] = $password;
 //new user data in array data type
 $new = $row;
